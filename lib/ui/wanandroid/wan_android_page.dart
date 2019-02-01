@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:orange/common/component_index.dart';
+import 'package:orange/ui/wanandroid/wan_android_home_page.dart';
 
 class _WanPager {
   final String pageId;
@@ -57,7 +58,7 @@ class _TabLayout extends StatelessWidget {
 
     switch (pageId) {
       case IDs.wan_home_ids:
-        return Container();
+        return WanAndroidHomePager(labelId: pageId);
       case IDs.wan_project_ids:
         return Container();
       case IDs.wan_event_ids:

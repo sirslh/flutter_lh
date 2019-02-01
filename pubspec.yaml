@@ -25,6 +25,23 @@ dependencies:
   dio: ^1.0.13
    # rxdart https://github.com/ReactiveX/rxdart
   rxdart: ^0.18.1
+  # Flutter 城市列表 https://github.com/flutterchina/azlistview
+  azlistview: ^0.1.0
+  # Dart 常用工具类库 https://github.com/Sky24n/common_utils
+  common_utils: ^1.0.9
+  # https://github.com/renefloor/flutter_cached_network_image
+  cached_network_image: ^0.5.0
+  # 汉字转拼音库 https://github.com/flutterchina/lpinyin
+  lpinyin: ^1.0.7
+  # Flutter 常用工具类库 https://github.com/Sky24n/flustars
+  flustars: ^0.1.9
+  # Flutter 国际化/多语言库 https://github.com/Sky24n/fluintl
+  fluintl: ^0.1.2
+
+  flukit:
+      git:
+        url: git://github.com/flutterchina/flukit.git
+        path: package_src/
 
 dev_dependencies:
   flutter_test:
